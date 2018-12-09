@@ -2,11 +2,11 @@
 
 const SUPPORT_EMAIL = 'support@email.com';
 const NOREPLY_EMAIL = 'no-reply@email.com';
-const DOMAIN = 'trade.multicoins.org';
+const DOMAIN = 'pinexz.com';
 
 const MAILER_NAME = 'OpenTrade Mailer';
 const START_MESSAGE = 'OpenTrade started!';
-const OPENTRADE = "OpenTrade";
+const OPENTRADE = "Pinexz";
 
 exports.ALLOW_EMAIL_CHANGING = true;
 
@@ -16,8 +16,8 @@ exports.share = {
    tradeEnabled: true,
    withdrawEnabled: true,
    recaptchaEnabled: true,
-   emailVerificationEnabled: 'enabled', //'disabled' // !!! WARNING !!! DANGER !!! DO NOT CHANGE IT IN PRODUCTION !!! FOR TESTS ONLY !!!
-   pinVerificationEnabled: 'enabled', //'disabled'
+   emailVerificationEnabled: 'disabled', //'disabled' // !!! WARNING !!! DANGER !!! DO NOT CHANGE IT IN PRODUCTION !!! FOR TESTS ONLY !!!
+   pinVerificationEnabled: 'disabled', //'disabled'
    
    TRADE_COMISSION: 0.001,
    DUST_VOLUME: 0.000001,
